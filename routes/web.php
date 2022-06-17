@@ -17,4 +17,6 @@ Route::get('/', function () {
     return view('frontend.index');
 });
 Route::get('/aboutus', 'App\Http\Controllers\HomeController@aboutus')->name('aboutus');
+Route::get('/contactus', 'App\Http\Controllers\HomeController@contactus')->name('contactus');
+Route::get('/become_a_teacher', 'App\Http\Controllers\HomeController@become_a_teacher')->name('become_a_teacher');
 
